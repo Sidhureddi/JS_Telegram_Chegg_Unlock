@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="en"><head> <link rel="icon" href="https://freepngimg.com/download/samurai/30862-2-samurai-transparent.png"> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Chegg By Ninja</title> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><style> .header { background-color: #E36F23; text-align: center; color: white; padding: 5px 5px; width: 100%; } a { color: yellow; } .main { font-size: 20px; } img { max-width: 100%; object-fit:contain !important; }  .container { width: 70%; } @media (max-width: 575.98px) { .container { width: 100%; } } </style></head><body> <div class="container"> <section class="card header bg-danger my-2 pt-3"><div class="main">Powered by : <a href="https://t.me/CheggNinja" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">🤖 Chegg Unlocks [PREMIUM]&nbsp;</a></div> <br></section> <div class="card my-2 p-3 text-white bg-dark"><h1>Question</h1>{{Link}}<div class="ugc-base question-body-text">
+    <div class=""><p></p>
+    <div class="hidden" id="eks"></div></div>
+    <span class="transcribed-image-text hidden"></span><br>
+    
+    </div></div><div class="card my-2 p-3 text-white bg-dark"><h2 class="d-flex justify-content-center"><span><button type="button" class="btn btn-success">
+                                                                            Likes:&nbsp; <span class="badge bg-dark">{{Like}}</span>
+                                                                        </button>
+                                                                        
+                                                                        <button type="button" class="btn btn-danger">
+                                                                            Dislikes:&nbsp; <span class="badge bg-dark">{{Dislike}}</span>
+                                                                        </button>
+                                                                        <script>
+    // Disable right-click
+    document.addEventListener('contextmenu', (e) => e.preventDefault());
+    function ctrlShiftKey(e, keyCode) {
+      return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+    }
+    document.onkeydown = (e) => {
+      // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+      if (
+        event.keyCode === 123 ||
+        ctrlShiftKey(e, 'I') ||
+        ctrlShiftKey(e, 'J') ||
+        ctrlShiftKey(e, 'C') ||
+        (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+      )
+        return false;
+    };
+    // disable right click
+    document.oncontextmenu = function (e) {
+        e.preventDefault()
+        return false;
+    }
+    // disable somme additional key
+    document.onkeydown = function (e) {
+        // disable f12
+        if (event.keyCode == 123) {
+            return false;
+        }
+        // disable ctrl+shift+I
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+        }
+        // disable ctrl+shift+C
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            return false;
+        }
+        // disable ctrl+shift+j
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+        }
+        // disable ctrl+shift+U
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+        }
+    }</script> 
+                                                                    </span></h2></div><div class="card my-2 p-3 text-dark bg-light"> <h1>Textbook Solutions</h1><br>{{answers_wrap}}<div class="answer-given-body ugc-base">
+    </div></div><section class="card header bg-danger my-2 pt-3"> <div class="main">Powered by : <a href="https://t.me/CheggNinja" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">🤖 Chegg Unlocks [PREMIUM]</a></div> <br></section> </div><script type="text/x-mathjax-config">MathJax.Hub.Config({ config: ["MMLorHTML.js"], jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"], extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"], TeX: { extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"] } });</script> <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>
