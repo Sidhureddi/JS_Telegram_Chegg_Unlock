@@ -8,12 +8,12 @@ const crypto = require('crypto');
 
 // !AWS S3 (TOKEN)
 const s3 = new AWS.S3({
-  accessKeyId: '1234', // !ID
-  secretAccessKey: '1234', // !Key
+  accessKeyId: 'AKIAR2XREP3MIC5TEVWN', // !ID
+  secretAccessKey: 'JKySKR5lod7VgIABxCR6SlFziz2lvMDTl9dwpVNi', // !Key
   region: 'us-east-2', // I recommend not to change and configure your AWS to this region. (Optional)
   signingAlgorithm: 'v4' // Adds this property to specify the signature algorithm.
 });
-global.BucketNameAWS = '1234'; // !Bucket Name in AWS S3
+global.BucketNameAWS = 'testsidhu'; // !Bucket Name in AWS S3
 
 // !Chegg Cookies
 const cookies = ['1234'];
@@ -37,18 +37,18 @@ var headers = {
   'TE': 'trailers'
 };
 
-const url_MongoDB = '1234'; // !Mongo DB LINK
+const url_MongoDB = 'mongodb+srv://test:test@cluster0.r2itzxl.mongodb.net/'; // !Mongo DB LINK
 const cliente = new MongoClient(url_MongoDB);
 
-const token = '1234'; // !Token Bot.
+const token = '5882354170:AAGvSmybY8NDxyjiOmcPSNr1a1RWyN1SKU4'; // !Token Bot.
 const bot = new TelegramBot(token, {polling: true});
-const AdminID = 1234; // !Admin ID
-const channelId = '1234'; // !Channel ID
-const chat_id = 1234; // !Group ID
+const AdminID = 1465968977; // !Admin ID
+const channelId = '-1001941434936'; // !Channel ID
+const chat_id = -1001860357040; // !Group ID
 const BuySubscription = "1234"; // !Admin Link
-const PointPrices = "1234"; // !Price List Link (Channel or Group).
-const Channel = "1234"; // !Channel Link
-const Group = "1234"; // !Group Link
+const PointPrices = "https://t.me/unblurforchegg/20"; // !Price List Link (Channel or Group).
+const Channel = "https://t.me/unblurforchegg"; // !Channel Link
+const Group = "https://t.me/expertunblur"; // !Group Link
 
 const express = require("express");
 const app = express();
